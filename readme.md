@@ -50,7 +50,7 @@ A similar setup is provided for MySQL and PostgreSQL in case a persistent databa
 
 You could start MySQL or PostgreSQL locally with whatever installer works for your OS, or with docker:
 
-```
+```''
 docker run -e MYSQL_USER=petclinic -e MYSQL_PASSWORD=petclinic -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=petclinic -p 3306:3306 mysql:5.7.8
 ```
 
